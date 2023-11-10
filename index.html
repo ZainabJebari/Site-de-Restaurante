@@ -7,6 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -17,22 +19,84 @@
 <body>
     <nav class="navbar">
         <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
+          <input type="checkbox" name="" id="check">
             <div class="hamburger-lines">
                 <span class="line line1"></span>
                 <span class="line line2"></span>
                 <span class="line line3"></span>
             </div>
-            <ul class="menu-items">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#food">Categoria</a></li>
-                <li><a href="#food-menu">Menu</a></li>
-                <li><a href="#testimonials">Avaliações</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-            <h1 class="logo">CW Bistrô</h1>
-        </div>
+           
+                 <div class="logo-container">
+                   <a href="#" class="logo">
+                   <img src="mylogo.png" alt="", width="260", height="85" >
+                </a>
+              </div>
+         
+                    <div class="menu-items">
+                        <div class="nav-links">
+                             <ul>
+                               <li class="nav-link" style="--i: .6s">
+                                <a href="#"><strong>Accueil</strong></a>
+                               </li>
+                     
+                               <li class="nav-link" style="--i: .85s">
+                                <a href="#"><strong> Dar Tajine </strong><i class="fas fa-caret-down"></i></a>
+                                 <div class="dropdown">
+                                 <ul>
+                                 <li class="dropdown-link">
+                                    <a href="#">Le riad</a>
+                                 </li>
+                                 <li class="dropdown-link">
+                                    <a href="#">La cuisine</a>
+                                 </li>
+                                  <li class="dropdown-link">
+                                     <a href="#">L'animation</a>
+                                 </li>
+                                 <li class="dropdown-link">
+                                     <a href="#">Les espaces</a>
+                                 </li>                               
+                                 <div class="arrow"></div>
+                               </ul>
+                                </div>           
+                                 </li>
+
+                                <li class="nav-link" style="--i: 1.1s">
+                                    <a href="#"> <strong> Menus </strong><i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                <ul>
+                                 <li class="dropdown-link">
+                                    <a href="#">Menu FR </a>
+                                 </li>
+
+                                 <li class="dropdown-link">
+                                     <a href="#">Menu EN</a>
+                                 </li>
+                                  <div class="arrow"></div>
+                                 </ul>
+                                  </div>
+                                </li>
+                                
+                     <li class="nav-link" style="--i: 1.35s">
+                         <a href="#"> <strong>Galerie</strong></a>
+                     </li>
+
+                     <li class="nav-link" style="--i: 1.35s">
+                         <a href="#"> <strong> CHEF</strong></a>
+                     </li>
+
+                     <li class="nav-link" style="--i: 1.35s">
+                         <a href="#"><strong>Contact </strong></a>
+                     </li>
+
+                     <li class="nav-link" style="--i: 1.8s">
+                         <a href="#"><strong> RÉSERVATION </strong></a>
+                     </li>
+
+                     <li class="nav-link" style="--i: 1.8s">
+                       <a href="#"><strong> Langue </strong></a>
+                   </li>
+                 </ul>
+             </div>
     </nav>
       <section class="showcase-area" id="showcase">
         <div class="showcase-container">
@@ -107,104 +171,10 @@
           </div>
         </div>
       </section>
-      <section id="food-menu">
-        <h2 class="food-menu-heading">Menu</h2>
-        <div class="food-menu-container container">
-          <div class="food-menu-item">
-            <div class="food-img">
-              <img src="imagem2.JPG" alt="" />
-            </div>
-            <div class="food-description">
-              <h2 class="food-titile">Salada Tropical</h2>
-              <p>As saladas são uma preparação culinária 
-                composta pela mistura de alimentos, como 
-                vegetais, frutas, leguminosas, castanhas, 
-                acrescidas ou não de temperos e molhos.
-              </p>
-              <p class="food-price">Preço: R$ 250</p>
-            </div>
-          </div>
-          <div class="food-menu-item">
-            <div class="food-img">
-              <img
-                src="imagem3.JPG"
-                alt="error"
-              />
-            </div>
-            <div class="food-description">
-              <h2 class="food-titile"> Salada de Frango</h2>
-              <p> Salada de frango é qualquer salada com frango
-                como ingrediente principal. Outros ingredientes
-                comuns podem incluir maionese, ovo cozido, 
-                aipo, cebola, pimenta, picles e uma variedade 
-                de mostardas.
-              </p>
-              <p class="food-price">Preço: 250</p>
-            </div>
-          </div>
-          <div class="food-menu-item">
-            <div class="food-img">
-              <img src="imagem4.JPG" alt="" />
-            </div>
-            <div class="food-description">
-              <h2 class="food-titile">Peixe com Salada</h2>
-              <p> A salada é uma boa pedida para quem está 
-                procurando uma alimentação leve, e a proteína 
-                da vez para completar o prato sãos peixes e 
-                frutos do mar.
-              </p>
-              <p class="food-price">Preço: R$ 250</p>
-            </div>
-          </div>
-          <div class="food-menu-item">
-            <div class="food-img">
-              <img src="imagem5.JPG" alt="" />
-            </div>
-            <div class="food-description">
-              <h2 class="food-titile">Salada de Grãos</h2>
-              <p>A salada de grão-de-bico é uma sugestão 
-                para uma refeição leve, prática e saudável. 
-                Feita na panela de pressão, a receita pode 
-                ser servida sozinha ou como acompanhamento 
-                no almoço ou jantar.
-              </p>
-              <p class="food-price">Preço: R$ 250</p>
-            </div>
-          </div>
-          <div class="food-menu-item">
-            <div class="food-img">
-              <img src="imagem6.JPG" alt="" />
-            </div>
-            <div class="food-description">
-              <h2 class="food-titile">Torta de Framboesa</h2>
-              <p> A cheesecake, ficou perfeita! Cremosa na medida certa.
-                Acompanhada de um delicioso coulis de framboesas para 
-                equilibrar os sabores e muitas framboesas 
-                frescas para celebrar a minha colheita.
-                Não poderia pedir mais nada…apenas mais dias 
-                e sobremesas como essa.
-              </p>
-              <p class="food-price">Preço: R$ 250</p>
-            </div>
-          </div>
-          <div class="food-menu-item">
-            <div class="food-img">
-              <img src="imagem7.JPG" alt="" />
-            </div>
-            <div class="food-description">
-              <h2 class="food-titile">Sobremesa Gelada de Frutas</h2>
-              <p>A sobremesa é uma das horas mais esperadas 
-                das refeições. Ela completa os sabores dos 
-                pratos com aquele toque adocicado e prazeroso 
-                ao paladar. Mas, até mesmo nesse momento, 
-                nós precisamos ter atenção com a nossa 
-                alimentação.
-              </p>
-              <p class="food-price">Preço: R$ 250</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+
+
+      
       <section id="testimonials">
         <h2 class="testimonial-title">O que nossos Clientes Falam sobre nós:</h2>
         <div class="testimonial-container container">
